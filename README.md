@@ -20,16 +20,95 @@
 
 ```nvm use 14```
 
-```node -v``
+```node -v```
 
 ```nvm -v```
 
 ```exec bash```
 
-```nvm zsh```
+```nmkdir myapp-nodejs```
+
+```cd myapp-nodejs```
+
+```npm init-y```
+
+```npm install express --save```
+
+```nano index.js```
+
+
+
+const express = require('express')
+
+const app = express()
+
+const port = 3000
+
+app.get('/',(req, res) => {
+
+res.send('Hello World! i am doing my 2nd task')
+
+})
+
+app.listen(port, ()=>{
+
+console.log(`Example app listening at http://localhost:$(port)`)
+
+})
+
 
 **2. Python**
 
+```sudo apt update```
+
+```sudo apt update -y```
+
+```python3 -V```
+
+```sudo apt install python3-pip```
+
+```pip install flask```
+
+```mkdir-python```
+
+```nano index.py```
+
+```python3 index.py```
+
+```from flask import Flask
+app = Flask(__name__)
+@app.route("/")
+	def main():
+return "Welcome!"
+if __name__=="__main__":
+	app.run()```
+
 **3. Go**
+
+```sudo apt update```
+
+```sudo apt update -y```
+
+```python3 -V```
+
+```sudo apt install python3-pip```
+
+```pip install flask```
+
+```mkdir-python```
+
+```nano index.py```
+
+```python3 index.py```
+
+```from flask import Flask
+app = Flask(__name__)
+@app.route("/")
+	def main():
+return "Welcome!"
+if __name__=="__main__":
+	app.run()```
+
+
 
 ## Service Management Pada Sistem Operasi
