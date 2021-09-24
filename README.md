@@ -14,7 +14,7 @@
 
 * Lalu kita akan menginstal nvm agar kita dapat memilih versi node.js yang akan kita pakai, dengan memasukkan perintah :
 
-```nvm install 14```
+`nvm install 14`
 
 * Gunakan perintah ini untuk menggunakan nvm versi 14 :
 
@@ -37,25 +37,17 @@
 ```nano index.js```
 
 
-
+```nodejs
 const express = require('express')
-
 const app = express()
-
 const port = 3000
-
 app.get('/',(req, res) => {
-
 res.send('Hello World! i am doing my 2nd task')
-
 })
-
 app.listen(port, ()=>{
-
 console.log(`Example app listening at http://localhost:$(port)`)
-
 })
-
+```
 
 **2. Python**
 
@@ -75,13 +67,15 @@ console.log(`Example app listening at http://localhost:$(port)`)
 
 ```python3 index.py```
 
-```from flask import Flask
+```python
+from flask import Flask
 app = Flask(__name__)
 @app.route("/")
 	def main():
 return "Welcome!"
 if __name__=="__main__":
-	app.run()```
+	app.run()
+```
 
 **3. Go**
 
