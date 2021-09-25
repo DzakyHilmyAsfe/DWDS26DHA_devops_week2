@@ -1,6 +1,4 @@
-# DWDS26DHA_devops_week2
-
-## Proses Instalasi dan Konfigurasi Aplikasi Node.js, Python dan Go
+# Proses Instalasi dan Konfigurasi Aplikasi Node.js, Python dan Go
 
 **1. Node.js**
 
@@ -37,12 +35,12 @@
 ```nano index.js```
 
 
-```nodejs
+```node
 const express = require('express')
 const app = express()
 const port = 3000
 app.get('/',(req, res) => {
-res.send('Hello World! i am doing my 2nd task')
+res.send('Hello World!')
 })
 app.listen(port, ()=>{
 console.log(`Example app listening at http://localhost:$(port)`)
@@ -79,30 +77,55 @@ if __name__=="__main__":
 
 **3. Go**
 
-```sudo apt update```
+```wget https://golang.org/dl/go1.16.5.linux-amd64.tar.gz && sudo su```
 
-```sudo apt update -y```
+```rm -rf /usr/local/go && tar -C /usr/local -xzf go1.16.5.linux-amd64.tar.gz && exit```
 
-```python3 -V```
+```export PATH=$PATH:usr/local/go/bin```
 
-```sudo apt install python3-pip```
+```go version```
 
-```pip install flask```
+```mkdir myapp-golang```
 
-```mkdir-python```
+```cd myapp-golang```
 
-```nano index.py```
+```nano index.go```
 
-```python3 index.py```
+```go
+package main
+import "fmt"
+func main(){
+	fmt.Println("Hello world!")
+}
+```
 
-```from flask import Flask
-app = Flask(__name__)
-@app.route("/")
-	def main():
-return "Welcome!"
-if __name__=="__main__":
-	app.run()```
+```go run index.go```
+
+```go build index.go```
+
+```./index.go```
 
 
+# Service Management Pada Sistem Operasi
 
-## Service Management Pada Sistem Operasi
+```sudo apt install nginx```
+
+```sudo systemctl status nginx```
+
+```sudo systemctl start nginx```
+
+```sudo systemctl enable nginx```
+
+```sudo systemctl restart nginx```
+
+```sudo systemctl disable nginx```
+
+# Memory
+
+```sudo apt install htop```
+
+```htop```
+
+# Storage
+
+```df -h```
