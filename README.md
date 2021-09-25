@@ -87,31 +87,74 @@ console.log(`Example app listening at http://localhost:$(port)`)
 
 **2. Python**
 
+* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
+
 ```sudo apt update```
 
-```sudo apt update -y```
+![Screenshot from 2021-09-26 01-38-02](https://user-images.githubusercontent.com/90166624/134783266-9249590f-e7d4-45f6-b1ee-0b524d4bf632.png)
+
+
+* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
+
+```sudo apt upgrade -y```
+
+![Screenshot from 2021-09-26 01-39-34](https://user-images.githubusercontent.com/90166624/134783271-bbe1e2b9-1a30-4b18-9e3c-61ebcce91bca.png)
+
+
+* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
 
 ```python3 -V```
 
+![Screenshot from 2021-09-26 01-43-20](https://user-images.githubusercontent.com/90166624/134783275-db692e4c-0d16-4332-9fa6-057ca8e0def0.png)
+
+
+* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
+
 ```sudo apt install python3-pip```
+
+![Screenshot from 2021-09-26 01-43-55](https://user-images.githubusercontent.com/90166624/134783293-a825384c-a8bc-4529-badc-e5c047f56582.png)
+
+
+* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
 
 ```pip install flask```
 
-```mkdir-python```
+![Screenshot from 2021-09-26 01-45-08](https://user-images.githubusercontent.com/90166624/134783297-26ada642-58e2-4e09-8f97-0106a764e6c3.png)
+
+
+* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
+
+```mkdir python```
+
+* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
 
 ```nano index.py```
 
-```python3 index.py```
+![Screenshot from 2021-09-26 01-54-27](https://user-images.githubusercontent.com/90166624/134783311-aafe4602-bcc6-4f87-8083-bc707d2b61d3.png)
+
+
+* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
 
 ```python
 from flask import Flask
 app = Flask(__name__)
 @app.route("/")
 	def main():
-return "Welcome!"
+return "Welcome to port 5000!"
 if __name__=="__main__":
 	app.run()
 ```
+
+* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
+
+```python3 index.py```
+
+![Screenshot from 2021-09-26 01-55-56](https://user-images.githubusercontent.com/90166624/134783320-4fccb92a-d4f0-4028-af91-66d7d3aa949a.png)
+
+* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
+
+![Screenshot from 2021-09-26 01-56-48](https://user-images.githubusercontent.com/90166624/134783335-09d04e59-a270-434b-956e-56d14dded742.png)
+
 
 **3. Go**
 
@@ -133,7 +176,7 @@ if __name__=="__main__":
 package main
 import "fmt"
 func main(){
-	fmt.Println("Hello world!")
+	fmt.Println("Hello world di terminal!")
 }
 ```
 
