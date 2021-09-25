@@ -214,13 +214,18 @@ func main(){
 
 ```sudo apt install nginx```
 
+![Screenshot from 2021-09-26 03-11-19](https://user-images.githubusercontent.com/90166624/134784970-92df48d4-7ab3-4b02-b02e-70c44c72572b.png)
+
 * Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
 
 ```sudo systemctl status nginx```
 
+![Screenshot from 2021-09-26 03-12-08](https://user-images.githubusercontent.com/90166624/134784978-854e3ded-38b6-481d-8062-166697489fb6.png)
+
 * Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
 
 ```sudo systemctl start nginx```
+
 
 * Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
 
@@ -234,18 +239,26 @@ func main(){
 
 ```sudo systemctl disable nginx```
 
+![Screenshot from 2021-09-26 03-14-32](https://user-images.githubusercontent.com/90166624/134784981-453125b0-afa9-4cd7-9eeb-96d3bce7029a.png)
+
 # Memory
 
 * Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
 
 ```sudo apt install htop```
 
+![Screenshot from 2021-09-26 03-15-02](https://user-images.githubusercontent.com/90166624/134784990-492b83df-f3a8-44a3-b358-59c93e721841.png)
+
 * Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
 
 ```htop```
+
+![Screenshot from 2021-09-26 03-15-22](https://user-images.githubusercontent.com/90166624/134784992-af1a8a1f-439d-436a-8863-1fc9d0a850ab.png)
 
 # Storage
 
 * Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
 
 ```df -h```
+
+![Screenshot from 2021-09-26 03-15-46](https://user-images.githubusercontent.com/90166624/134784995-b5c9c4ca-6f77-42e4-8c21-031345ebfa92.png)
