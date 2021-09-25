@@ -42,25 +42,25 @@
 
 ![Screenshot from 2021-09-25 14-16-28](https://user-images.githubusercontent.com/90166624/134763039-6629fb67-8b59-41a1-baf9-9ab44a0855c3.png)
 
-* Jika instalasi nya belum terdeteksi, maka gunakan perintah berikut :
+* Kita akan membuat file package.json :
 
 ```npm init-y```
 
 ![Screenshot from 2021-09-25 14-17-39](https://user-images.githubusercontent.com/90166624/134763151-5869a85e-c686-444f-ac66-641438f8c411.png)
 
-* Jika instalasi nya belum terdeteksi, maka gunakan perintah berikut :
+* Install express, express ini seperti library agar sebuah code bisa berjalan :
 
 ```npm install express --save```
 
 ![Screenshot from 2021-09-25 14-18-35](https://user-images.githubusercontent.com/90166624/134763160-80361b27-d4d3-4c50-8fa7-7e9addd80743.png)
 
-* Jika instalasi nya belum terdeteksi, maka gunakan perintah berikut :
+* Setelah itu kita akan membuat coding program sederhana pada node js, dengan menggunakan perintah :
 
 ```nano index.js```
 
 ![Screenshot from 2021-09-25 14-19-34](https://user-images.githubusercontent.com/90166624/134763169-d7b790ee-d7f5-4191-92d0-32ffd7ade3f5.png)
 
-* Jika instalasi nya belum terdeteksi, maka gunakan perintah berikut :
+* Masukkan kode berikut :
 
 ```node
 const express = require('express')
@@ -74,13 +74,13 @@ console.log(`Example app listening at http://localhost:$(port)`)
 })
 ```
 
-* Jika instalasi nya belum terdeteksi, maka gunakan perintah berikut :
+* Jalankan kode, menggunakan perintah :
 
 ```node index.js```
 
 ![Screenshot from 2021-09-25 14-21-26](https://user-images.githubusercontent.com/90166624/134763191-5fa49217-f7ba-4254-afea-20cb4fba1c0e.png)
 
-* Jika instalasi nya belum terdeteksi, maka gunakan perintah berikut :
+* Jika berhasil tanpa error, lalu buka alamat web https://localhost:3000 pada browser :
 
 ![Screenshot from 2021-09-25 14-22-14](https://user-images.githubusercontent.com/90166624/134763202-80f60e90-31ae-4e53-ad8f-c5f310448127.png)
 
