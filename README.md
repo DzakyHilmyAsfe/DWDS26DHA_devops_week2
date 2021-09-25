@@ -36,7 +36,7 @@
 
 ```exec bash``` atau  ```exec zsh```
 
-* Jika instalasi nya belum terdeteksi, maka gunakan perintah berikut :
+* Lalu kita akan membuat folder baru, dan masuk kedalam folder tersebut
 
 ```mkdir myapp-nodejs``` ```cd myapp-nodejs```
 
