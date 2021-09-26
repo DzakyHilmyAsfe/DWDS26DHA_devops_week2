@@ -151,33 +151,35 @@ if __name__=="__main__":
 
 **3. Go**
 
-* Sebelum menginstall aplikasi go kita akan menjalankan perintah perintah berikut ini pada terminal linux :
+* Sebelum menginstall aplikasi go kita akan menjalankan perintah perintah berikut ini pada terminal linux, perintah ini akan mendownload file golang, dan memberikan akses root :
 
 ```wget https://golang.org/dl/go1.16.5.linux-amd64.tar.gz && sudo su```
 
 ![Screenshot from 2021-09-26 02-08-37](https://user-images.githubusercontent.com/90166624/134784806-98852ffc-b761-4628-abfc-217f14d7eba3.png)
 
-* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
+* Lalu extract dan copy file yang sudah kita download tadi menggunakan perintah :
 
 ```rm -rf /usr/local/go && tar -C /usr/local -xzf go1.16.5.linux-amd64.tar.gz && exit```
 
-* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
+* Selanjutnya pindahkan path go pada bashrc, menggunakan perintah :
 
 ```export PATH=$PATH:/usr/local/go/bin```
 
-* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
+* Cek versi instalasi go :
 
 ```go version```
 
-* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
+* Buat folder baru :
 
 ```mkdir myapp-golang```
 
-* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
+* Masuk ke folder tersebut :
 
 ```cd myapp-golang```
 
 ![1](https://user-images.githubusercontent.com/90166624/134784753-8749de3e-94ac-4110-8810-1682b6d009c3.png)
+
+* Buat file golang baru, dan masukkan kode :
 
 ```nano index.go```
 
@@ -191,44 +193,40 @@ func main(){
 }
 ```
 
+* Jalankan kode menggunakan perintah :
+
 ```go run index.go```
 
 ![3](https://user-images.githubusercontent.com/90166624/134784783-9661167c-c4a0-4980-bfb7-0aebd3fe4c84.png)
 
 
-```go build index.go```
-
-```./index.go```
-
-
 # Service Management Pada Sistem Operasi
 
-* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
+* Perintah untuk menginstall nginx :
 
 ```sudo apt install nginx```
 
 ![Screenshot from 2021-09-26 03-11-19](https://user-images.githubusercontent.com/90166624/134784970-92df48d4-7ab3-4b02-b02e-70c44c72572b.png)
 
-* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
+* Perintah untuk melihat keadaan nginx :
 
 ```sudo systemctl status nginx```
 
 ![Screenshot from 2021-09-26 03-12-08](https://user-images.githubusercontent.com/90166624/134784978-854e3ded-38b6-481d-8062-166697489fb6.png)
 
-* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
+* Perintah untuk memulai nginx:
 
 ```sudo systemctl start nginx```
 
-
-* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
+* Perintah untuk mengaktifkan nginx :
 
 ```sudo systemctl enable nginx```
 
-* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
+* Perintah untuk memulai ulang nginx :
 
 ```sudo systemctl restart nginx```
 
-* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
+* Perintah untuk menonaktifkan nginx :
 
 ```sudo systemctl disable nginx```
 
@@ -236,13 +234,13 @@ func main(){
 
 # Memory
 
-* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
+* Perintah untuk menginstall htop :
 
 ```sudo apt install htop```
 
 ![Screenshot from 2021-09-26 03-15-02](https://user-images.githubusercontent.com/90166624/134784990-492b83df-f3a8-44a3-b358-59c93e721841.png)
 
-* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
+* Perintah untuk menjalankan htop :
 
 ```htop```
 
@@ -250,7 +248,7 @@ func main(){
 
 # Storage
 
-* Untuk menginstall aplikasi node.js kita akan menjalankan perintah perintah berikut ini pada terminal linux :
+* Perintah untuk melihat keadaan penyimpanan device :
 
 ```df -h```
 
