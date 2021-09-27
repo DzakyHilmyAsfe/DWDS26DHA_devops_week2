@@ -199,6 +199,16 @@ func main(){
 
 ![3](https://user-images.githubusercontent.com/90166624/134784783-9661167c-c4a0-4980-bfb7-0aebd3fe4c84.png)
 
+* Lalu build aplikasi golang dengan perintah :
+
+```go build index.go```
+
+* Lalu jalankan aplikasi yang telah di build dengan perintah :
+
+```./index```
+
+![Screenshot from 2021-09-28 01-55-44](https://user-images.githubusercontent.com/90166624/134968332-c195a1e9-6616-461c-ad62-bdf0d27a6477.png)
+
 
 # Service Management Pada Sistem Operasi
 
